@@ -198,12 +198,81 @@ section.about{
             padding-top: 16px;
         }
 
+/*Sección Skills*/
+
+section.skills{
+    border: purple 5px solid;
+    height: 244px;
+}        
+
+        section.skills h3.skills__title{
+            display: flex;
+            justify-content: center;
+        }
+
+
+        section.skills div.skills__line{
+            border: plum 5px solid;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+        }
+
+        section.skills div.skills__line div.skills__box {
+            background-color: white;
+            width: 176px;
+            height: 174px;
+            margin-left:16px;
+            gap: 8px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+    
+        }
+
+            section.skills div.skills__line div.skills__box ul{
+                padding:0px;
+                margin-left: 16px;
+            }
 
 /*Sección Hobbies*/
 
+
 section.hobbies{
+    border: purple 5px solid;
+    height: 244px;
+}        
+
+        section.hobbies h3.hobbies__title{
+            display: flex;
+            justify-content: center;
+        }
+
+
+        section.hobbies div.hobbies__line{
+            border: plum 5px solid;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+        }
+
+        section.hobbies div.hobbies__line div.hobbies__box {
+            background-color: white;
+            width: 176px;
+            height: 174px;
+            margin-left:16px;
+            gap: 8px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
     
-}
+        }
+ 
+            section.hobbies div.hobbies__line div.hobbies__box ul{
+                padding:0px;
+                margin-left: 16px;
+            }
+
 
 /* Experiencia Académica*/
 
