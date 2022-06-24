@@ -53,7 +53,7 @@ section.menu{
         border: blue 3px solid;
         display: flex;
         justify-content: center;
-        align-self: center;
+        align-self: flex-start;
     }
         .menu__header img{
             height: 50px;
@@ -63,7 +63,7 @@ section.menu{
     section.menu nav{
         border: green 5px solid;
         display: flex;
-        justify-content: center;
+        justify-content:space-between;
         align-self: center;
 
     }
@@ -106,15 +106,98 @@ section.menu{
 
 /*Sección Title*/
 
-section.title{
-
+section.title {
+border: green 5px double;
+/*display: flex;
+justify-content: center;
+align-self: start;*/
 }
+
+section div.title__div {
+    border: red 5px solid;
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    flex-direction: row-reverse;
+    gap: 1%;
+    }
+
+    section.title img.title__profile{
+        border: green solid 4px;
+    }
+
+    section.title div.title__container{
+        border: greenyellow 5px dotted;
+        width: 751px;
+        height: auto;
+    
+    }
+
+    section.title h2.title__bio{
+        font-size: 52px;
+    }
+
+    section.title div.title__div div.title__container h3.title__subsection{ 
+        align-items: stretch;
+        font-style: normal;
+        font-weight:normal;
+        font-size: 22px;
+    }
+
+    section.title div.title__div div.title__container ul.title__network{ 
+        border: 5px solid rgb(56, 209, 0);
+        padding: 0%;
+        display: flex;
+        justify-content:flex-start;
+        gap: 7%;
+        align-self: flex-start;
+        font-size: 16px;
+    }
+
 
 /*Sección About*/
 
 section.about{
-
+    background-color: #EAF2FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:383px;
+   
 }
+
+    section.about div.about__container{
+        border: blue 5px solid;
+        width: 1136px;
+        height: 255px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-self: flex-start;
+        padding: 64px;
+    }
+
+        section.about div.about__container h3.about__title{
+            border: rgb(6, 6, 154) 5px solid;
+            font-size: 32px;
+            font-weight: bold;
+            padding: 0;
+            margin: 0;
+        }
+
+        section.about div.about__container img{
+            border: rgba(93, 93, 255, 0.932) 5px solid;
+            height: 52px;
+            width: 140px;
+        }
+
+        section.about div.about__container p.about__paragraph{
+            border: rgba(0, 0, 52, 0.932) 5px solid;
+            width: 751px;
+            padding-left: 16px;
+            padding-top: 16px;
+        }
+
 
 /*Sección Hobbies*/
 
