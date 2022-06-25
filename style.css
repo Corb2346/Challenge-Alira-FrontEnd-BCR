@@ -277,8 +277,64 @@ section.hobbies{
 /* Experiencia Académica*/
 
 section.academic{
-
+background-color: #EAF2FD;
+display: flex;
+flex-direction: column;
 }
+
+    section.academic h2.academic__title{
+        padding-top: 82px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    section.academic div.academic__courses{
+        border: 5px yellow solid;
+        padding: 0;
+        margin: 0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+
+        
+    }
+        section.academic div.academic__courses div.academic__courses__box ul.academic__courses__list{
+            border: 4px red solid;
+            padding: 0%;
+            margin: 0%;
+            height: 347px;
+            width: 368px;
+        }
+          
+            section.academic div.academic__courses div.academic__courses__box ul.academic__courses__list li.academic__courses__item__img img{
+
+                /*border: 6px blue solid;*/
+                background-color: white;
+                margin: 0%;
+                padding: 78px;
+                
+            }
+
+            section.academic div.academic__courses div.academic__courses__box ul.academic__courses__list li.academic__courses__item__title h4{
+                /*border: 5px blue dotted;*/
+                padding: 0%;
+                margin: 0%;
+                margin-bottom: 2%;
+                margin-top: 2%;
+            }
+
+            section.academic div.academic__courses div.academic__courses__box ul.academic__courses__list li.academic__courses__item__subtitle p{
+               /* border: 5px blue dotted;*/
+                padding: 0%;
+                margin: 0%;
+                margin-bottom: 2%;
+                margin-top: 2%;
+            }
+            
+            
+
+
 
 /* experiencia*/
 
