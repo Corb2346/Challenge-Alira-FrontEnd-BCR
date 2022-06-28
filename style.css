@@ -342,6 +342,68 @@ section.experience{
 
 }
 
+        section.experience h2.experience__section__title{
+            display: flex;
+            justify-content: center;
+            align-self: center;
+        }
+
+        section.experience div.experiencie__box{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            gap: 16px;
+            margin-top: 2%;
+            margin-bottom: 5%;
+        }
+
+            section.experience div.experiencie__box div.experience__info{
+                display: flex;
+                flex-direction: column;
+                align-content: flex-end;
+                justify-content: inherit;
+                
+            }
+
+            section.experience div.experiencie__box div.experience__info h2.experience__title{
+                font-size: 22px;
+                margin: 2%;
+            }
+
+            section.experience div.experiencie__box div.experience__info h3.experience__text{
+                font-size:16px;
+                font-weight: 500;
+                margin: 2%;
+                margin-bottom: 5%;
+            }
+
+            section.experience div.experiencie__box div.experience__info div.experience__description{
+                display: flex;
+                gap: 16px;
+            }
+
+                section.experience div.experiencie__box div.experience__info div.experience__description span.experience__repo button.experiencia__botao--repo {
+                   background-color: white;
+                   height: 51px;
+                   width: 116px;
+                   border-color: #2A7AE4;
+                   color:#2A7AE4;
+              
+                }
+
+                section.experience div.experiencie__box div.experience__info div.experience__description span.experience__demo button.experience__botao--demo{
+                    background-color: #2A7AE4;
+                    height: 51px;
+                    width: 116px;
+                    border-color: #2A7AE4;
+                    color:white;
+                 }
+
+    #box2{
+        flex-direction: row-reverse;
+    }
+
+
 /*Contacto*/
 
 section.formcontato{
